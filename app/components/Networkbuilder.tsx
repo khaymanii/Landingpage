@@ -10,7 +10,7 @@ function Networkbuilder() {
           startups scale
         </h1>
       </div>
-      <div className="flex flex-col sm:flex-row justify-between items-center">
+      <div className="flex flex-col lg:flex-row justify-between items-center">
         <div className="bg-white rounded-xl w-full lg:w-[48%] px-6 md:px-8 py-4 mb-8 lg:mb-0">
           <h1 className="text-xl md:text-2xl lg:text-2xl font-bold">
             Work with Service incubators to expedite your time-to-market
