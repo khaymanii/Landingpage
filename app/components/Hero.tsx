@@ -2,7 +2,6 @@
 import React from "react";
 import Button from "./Button";
 import Image from "next/image";
-import Card1 from "/public/Card1.jpg";
 
 function Hero() {
   function handleClick() {
@@ -10,8 +9,8 @@ function Hero() {
   }
   return (
     <div className="flex flex-col md:flex-row items-center justify-between bg-white mb-16">
-      <div className="max-w-7xl mx-auto md:w-1/2 px-4 py-10 md:px-16 lg:px-48 mb-8 md:mb-0">
-        <h1 className="text-5xl  font-bold mb-4">
+      <div className="md:w-1/2 px-4 py-10 md:px-8  mb-8 md:mb-0">
+        <h1 className="text-4xl sm:text-5xl md:text-3xl font-bold pb-4">
           SINC Partners is a service incubation company
         </h1>
         <p className="text-lg pb-4">
@@ -25,7 +24,7 @@ function Hero() {
       </div>
       <div className="hidden md:block w-full md:w-1/2">
         <Image
-          src={Card1}
+          src="/hero.svg"
           alt="hero image"
           objectFit="cover"
           quality={100}
