@@ -42,7 +42,7 @@ const Concept = () => {
           ultimately help democratize success;
         </p>
       </div>
-      <div className="flex flex-wrap justify-between gap-6 sm:gap-20 mx-4">
+      <div className="flex flex-wrap  justify-between gap-6 sm:gap-20 mx-4">
         {focusAreas.map((area) => (
           <FocusAreaCard
             key={area.title}

@@ -9,7 +9,7 @@ function Hero() {
   }
   return (
     <div className="flex flex-col md:flex-row items-center justify-between w-full bg-white mb-16">
-      <div className="max-w-7xl mx-auto ml-0 sm:ml-64 pt-10 mb-8 md:mb-0">
+      <div className="max-w-7xl mx-auto pt-10 mb-8 md:mb-0">
         <h1 className="text-3xl sm:text-6xl md:text-3xl font-bold pb-4 px-4">
           SINC Partners is a service incubation company
         </h1>
