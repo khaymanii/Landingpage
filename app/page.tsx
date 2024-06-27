@@ -10,7 +10,7 @@ import StudioPortfolio from "./components/StudioPortfolio";
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen w-full max-w-screen-xl mx-auto bg-gray-100">
       <Navbar />
       <Hero />
       <Network />
