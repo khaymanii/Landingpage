@@ -20,9 +20,40 @@ const InfoCard: React.FC<CardProps> = ({
       <p className="text-gray-700 pb-2">{description}</p>
       <p className="font-medium pb-4">{details}</p>
     </div>
-    <Link className="font-bold underline mt-auto" href={link}>
-      Learn More
-    </Link>
+    <div className="flex">
+      {" "}
+      <Link className="font-bold underline mt-auto mr-2" href={link}>
+        Learn More
+      </Link>{" "}
+      <span>
+        <svg
+          width="22"
+          height="23"
+          viewBox="0 0 22 23"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_938_9006)">
+            <path
+              d="M17.4717 11.5H4.52734M17.4717 11.5L12.3223 6.35065M17.4717 11.5L12.3223 16.6494"
+              stroke="#212121"
+              stroke-width="2"
+              stroke-linecap="square"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_938_9006">
+              <rect
+                width="15.5355"
+                height="15.5355"
+                fill="white"
+                transform="translate(0.015625 11.5) rotate(-45)"
+              />
+            </clipPath>
+          </defs>
+        </svg>
+      </span>
+    </div>
   </div>
 );
 
