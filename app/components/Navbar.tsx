@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <nav className="z-20 bg-gray-200 sticky top-0 py-2">
-      <div className=" mx-auto max-w-8xl px-4 sm:px-6 lg:px-8">
+      <div className=" mx-auto max-w-7xl px-4 sm:px-2 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-4 pr-8">
