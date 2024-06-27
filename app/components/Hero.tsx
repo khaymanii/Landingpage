@@ -7,31 +7,27 @@ function Hero() {
   function handleClick() {
     console.log("Button Clicked");
   }
+
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between w-full bg-white mb-16">
-      <div className="max-w-7xl mx-auto pt-10 mb-8 md:mb-0">
-        <h1 className="text-3xl sm:text-6xl md:text-3xl font-bold pb-4 px-4">
+    <div className="max-w-[1440px] h-auto bg-white mx-auto mb-16 flex flex-col md:flex-row justify-between">
+      <div className=" w-[354px] md:w-[490px] h-auto pl-6 md:pl-[120px] pt-8 md:pt-[87px]">
+        <h1 className="text-xl sm:text-3xl md:text-3xl font-bold pb-4">
           SINC Partners is a service incubation company
         </h1>
-        <p className=" pb-4 px-4">
-          Connecting Experts in product development and growth marketing willing
-          to offer <br /> their services to amazing startups in exchange for
-          minute equity (usually 0.5% to 2%).
+        <p className="pb-4 text-base md:text-lg">
+          Connecting experts in product development and growth marketing willing
+          to offer their services to amazing startups in exchange for minute
+          equity (usually 0.5% to 2%).
         </p>
-        <Button className="py-4 px-8 mx-4" onClick={handleClick}>
+        <Button
+          className="px-6 md:px-8 py-2 md:py-4 mb-6"
+          onClick={handleClick}
+        >
           SINC With Us
         </Button>
       </div>
-      <div className="hidden md:block w-full md:w-1/2">
-        <Image
-          src="/hero.svg"
-          alt="hero image"
-          objectFit="cover"
-          quality={100}
-          height={50}
-          width={50}
-          layout="responsive"
-        />
+      <div className="hidden md:block">
+        <Image src="/hero.svg" alt="hero image" width={700} height={600} />
       </div>
     </div>
   );

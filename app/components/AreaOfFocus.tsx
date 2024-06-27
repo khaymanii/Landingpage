@@ -54,7 +54,7 @@ const AreaOfFocus: React.FC = () => {
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold pb-4">
           Our Area of Focus
         </h1>
-        <p>
+        <p className="text-base md:text-lg">
           In our quest to help make success available to everyone, we have
           initial strategic direction <br /> to focus on these five key areas at
           the lab

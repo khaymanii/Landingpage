@@ -49,7 +49,7 @@ const Button: React.FC<ButtonProps> = ({ children }) => {
 
 const IncubationModel: React.FC = () => {
   return (
-    <div className="mx-auto max-w-7xl mb-16 px-4">
+    <div className="mx-auto max-w-7xl mb-16 px-4 text-center">
       <div className="mx-auto text-center mb-10">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold pb-4">
           Our Service Incubation Model
@@ -67,7 +67,7 @@ const IncubationModel: React.FC = () => {
         Just a few reasons we know its time for this model within the ecosystem
       </Section>
 
-      <div className="flex flex-col md:flex-row items-center justify-between mx-0 mb-12 space-y-4 md:space-y-0 md:space-x-4">
+      <div className="flex flex-col md:flex-row items-center justify-between mx-0 mb-12 space-y-4 md:space-y-0 md:space-x-4 text-left">
         <Card src="/triangle.svg" alt="triangle image">
           Most early-stage companies and pre-product startups cannot afford
           professional services especially those who don’t have family and

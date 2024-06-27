@@ -36,7 +36,7 @@ const Concept = () => {
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold pb-4">
           Our Concept Innovation
         </h1>
-        <p>
+        <p className="text-base md:text-lg">
           We have proprietary concept innovations that will support the startup
           ecosystem, <br /> support solution-providers/entrepreneurs and
           ultimately help democratize success;
