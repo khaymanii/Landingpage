@@ -22,7 +22,7 @@ const InfoCard: React.FC<CardProps> = ({
     </div>
     <div className="flex">
       {" "}
-      <Link className="font-bold underline mt-auto mr-2" href={link}>
+      <Link className="font-bold underline mt-auto mr-1" href={link}>
         Learn More
       </Link>{" "}
       <span>

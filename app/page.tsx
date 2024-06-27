@@ -6,6 +6,7 @@ import Networkbuilder from "./components/Networkbuilder";
 import AreaOfFocus from "./components/AreaOfFocus";
 import Concept from "./components/Concept";
 import IncubationModel from "./components/IncubationModel";
+import StudioPortfolio from "./components/StudioPortfolio";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <AreaOfFocus />
       <Concept />
       <IncubationModel />
+      <StudioPortfolio />
     </div>
   );
 }
