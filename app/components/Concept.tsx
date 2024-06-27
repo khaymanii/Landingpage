@@ -38,7 +38,7 @@ const Concept = () => {
         </h1>
         <p>
           We have proprietary concept innovations that will support the startup
-          ecosystem, support solution-providers/entrepreneurs and <br />
+          ecosystem, <br /> support solution-providers/entrepreneurs and
           ultimately help democratize success;
         </p>
       </div>
